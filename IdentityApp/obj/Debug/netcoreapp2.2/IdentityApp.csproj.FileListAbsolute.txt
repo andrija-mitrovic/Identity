@@ -35,3 +35,4 @@ D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Identi
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Account\Register.cshtml.g.cs
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Account\Login.cshtml.g.cs
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\CreateRole.cshtml.g.cs
+D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListRoles.cshtml.g.cs
