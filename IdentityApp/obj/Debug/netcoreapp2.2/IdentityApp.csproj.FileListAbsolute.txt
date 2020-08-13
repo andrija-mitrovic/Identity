@@ -37,3 +37,4 @@ D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\CreateRole.cshtml.g.cs
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListRoles.cshtml.g.cs
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditRole.cshtml.g.cs
+D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs

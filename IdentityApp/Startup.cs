@@ -64,6 +64,8 @@ namespace IdentityApp
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseAuthentication();
+            
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
