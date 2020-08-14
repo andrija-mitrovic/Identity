@@ -12,7 +12,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 
 namespace IdentityApp.Controllers
 {
-    [Authorize]
+    [Authorize(Roles = "Admin,User")]
     public class AdministrationController : Controller
     {
         private readonly RoleManager<IdentityRole> _roleManager;
