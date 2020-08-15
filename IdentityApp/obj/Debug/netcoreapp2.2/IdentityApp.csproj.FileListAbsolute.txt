@@ -8,7 +8,6 @@ D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\bin\Debug\netcoreapp2.2\Identi
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\bin\Debug\netcoreapp2.2\IdentityApp.pdb
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\bin\Debug\netcoreapp2.2\IdentityApp.Views.dll
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\bin\Debug\netcoreapp2.2\IdentityApp.Views.pdb
-D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\IdentityApp.csprojAssemblyReference.cache
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\IdentityApp.AssemblyInfoInputs.cache
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\IdentityApp.AssemblyInfo.cs
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\IdentityApp.csproj.CoreCompileInputs.cache
@@ -38,3 +37,4 @@ D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\ListRoles.cshtml.g.cs
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditRole.cshtml.g.cs
 D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Administration\EditUsersInRole.cshtml.g.cs
+D:\Projects\ASP .NET Core\IdentityApp\IdentityApp\obj\Debug\netcoreapp2.2\Razor\Views\Account\AccessDenied.cshtml.g.cs

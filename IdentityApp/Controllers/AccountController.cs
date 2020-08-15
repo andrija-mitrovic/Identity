@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using IdentityApp.Models;
 using IdentityApp.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
@@ -85,6 +86,13 @@ namespace IdentityApp.Controllers
             }
 
             return View(model);
+        }
+
+        [HttpGet]
+        [AllowAnonymous]
+        public IActionResult AccessDenied()
+        {
+            return View();
         }
     }
 }
