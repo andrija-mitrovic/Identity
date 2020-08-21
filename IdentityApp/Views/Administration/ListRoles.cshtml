@@ -20,9 +20,11 @@
                 @role.Name
             </div>
             <div class="card-footer">
-                <a class="btn btn-primary" asp-action="EditRole" 
-                   asp-controller="Administration" asp-route-id="@role.Id">Edit</a>
-                <a class="btn btn-danger">Delete</a>
+                <form asp-action="DeleteUser" method="post" asp-route-id="@user.Id">
+                    <a class="btn btn-primary" asp-action="EditRole"
+                       asp-controller="Administration" asp-route-id="@role.Id">Edit</a>
+                    <a class="btn btn-danger">Delete</a>
+                </form>
             </div>
         </div>
     }
