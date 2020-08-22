@@ -263,7 +263,7 @@ namespace IdentityApp.Controllers
 
         public async Task<IActionResult> DeleteUser(string id)
         {
-            var user = await _userManager.FindByIdAsync(id);
+            var user = await _roleManager.FindByIdAsync(id);
 
             if (user == null)
             {
@@ -271,11 +271,11 @@ namespace IdentityApp.Controllers
             }
             else
             {
-                var result=await _userManager.DeleteAsync(user);
+                var result=await _roleManager.DeleteAsync(user);
 
                 if (result.Succeeded)
                 {
-                    return RedirectToAction("ListUsers");
+                    return RedirectToAction("ListRoles");
                 }
 
                 foreach(var error in result.Errors)
@@ -283,7 +283,7 @@ namespace IdentityApp.Controllers
                     ModelState.AddModelError("", error.Description);
                 }
 
-                return View("ListUsers");
+                return View("ListRoles");
             }
         }
     }
