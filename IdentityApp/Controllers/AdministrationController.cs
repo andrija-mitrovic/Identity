@@ -398,7 +398,36 @@ namespace IdentityApp.Controllers
             return RedirectToAction("EditUser", new { Id = userId });
         }
 
+        [HttpPost]
         public async Task<IActionResult> DeleteUser(string id)
+        {
+            var user = await _userManager.FindByIdAsync(id);
+
+            if (user == null)
+            {
+                return View("Error");
+            }
+            else
+            {
+                var result=await _userManager.DeleteAsync(user);
+
+                if (result.Succeeded)
+                {
+                    return RedirectToAction("ListUsers");
+                }
+
+                foreach(var error in result.Errors)
+                {
+                    ModelState.AddModelError("", error.Description);
+                }
+
+                return View("ListUsers");
+            }
+        }
+
+        [HttpPost]
+        [Authorize(Policy = "DeleteRolePolicy")]
+        public async Task<IActionResult> DeleteRole(string id)
         {
             var user = await _roleManager.FindByIdAsync(id);
 
@@ -408,14 +437,14 @@ namespace IdentityApp.Controllers
             }
             else
             {
-                var result=await _roleManager.DeleteAsync(user);
+                var result = await _roleManager.DeleteAsync(user);
 
                 if (result.Succeeded)
                 {
                     return RedirectToAction("ListRoles");
                 }
 
-                foreach(var error in result.Errors)
+                foreach (var error in result.Errors)
                 {
                     ModelState.AddModelError("", error.Description);
                 }
